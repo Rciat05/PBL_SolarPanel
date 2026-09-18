@@ -1,0 +1,29 @@
+# ==========================================
+# 1. Archivos compilados de Arduino
+# ==========================================
+build/
+*.hex
+*.elf
+*.bin
+*.eep
+.arduino/
+.arduinoIDE/
+
+# ==========================================
+# 2. Entornos y temporales de Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# ==========================================
+# 3. Bases de datos y archivos pesados
+# ==========================================
+*.csv
+*.log
+*.dat
